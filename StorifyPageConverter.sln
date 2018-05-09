@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2043
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StorifyPageConverter", "StorifyPageConverter\StorifyPageConverter.csproj", "{B512B238-5219-42F0-900C-578E72F64929}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{6AF0D05F-405D-4404-807C-C3F552E064F6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B512B238-5219-42F0-900C-578E72F64929}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B512B238-5219-42F0-900C-578E72F64929}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B512B238-5219-42F0-900C-578E72F64929}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B512B238-5219-42F0-900C-578E72F64929}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AF0D05F-405D-4404-807C-C3F552E064F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AF0D05F-405D-4404-807C-C3F552E064F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AF0D05F-405D-4404-807C-C3F552E064F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AF0D05F-405D-4404-807C-C3F552E064F6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C17F9933-D04E-4C0A-AF06-190EB46E8D5A}
+	EndGlobalSection
+EndGlobal
