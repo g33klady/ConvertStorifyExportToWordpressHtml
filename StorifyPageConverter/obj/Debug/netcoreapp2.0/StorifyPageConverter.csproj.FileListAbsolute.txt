@@ -1,0 +1,11 @@
+C:\Users\g33kl\source\repos\StorifyPageConverter\StorifyPageConverter\bin\Debug\netcoreapp2.0\StorifyPageConverter.deps.json
+C:\Users\g33kl\source\repos\StorifyPageConverter\StorifyPageConverter\bin\Debug\netcoreapp2.0\StorifyPageConverter.runtimeconfig.json
+C:\Users\g33kl\source\repos\StorifyPageConverter\StorifyPageConverter\bin\Debug\netcoreapp2.0\StorifyPageConverter.runtimeconfig.dev.json
+C:\Users\g33kl\source\repos\StorifyPageConverter\StorifyPageConverter\bin\Debug\netcoreapp2.0\StorifyPageConverter.dll
+C:\Users\g33kl\source\repos\StorifyPageConverter\StorifyPageConverter\bin\Debug\netcoreapp2.0\StorifyPageConverter.pdb
+C:\Users\g33kl\source\repos\StorifyPageConverter\StorifyPageConverter\obj\Debug\netcoreapp2.0\StorifyPageConverter.csprojResolveAssemblyReference.cache
+C:\Users\g33kl\source\repos\StorifyPageConverter\StorifyPageConverter\obj\Debug\netcoreapp2.0\StorifyPageConverter.csproj.CoreCompileInputs.cache
+C:\Users\g33kl\source\repos\StorifyPageConverter\StorifyPageConverter\obj\Debug\netcoreapp2.0\StorifyPageConverter.AssemblyInfoInputs.cache
+C:\Users\g33kl\source\repos\StorifyPageConverter\StorifyPageConverter\obj\Debug\netcoreapp2.0\StorifyPageConverter.AssemblyInfo.cs
+C:\Users\g33kl\source\repos\StorifyPageConverter\StorifyPageConverter\obj\Debug\netcoreapp2.0\StorifyPageConverter.dll
+C:\Users\g33kl\source\repos\StorifyPageConverter\StorifyPageConverter\obj\Debug\netcoreapp2.0\StorifyPageConverter.pdb
