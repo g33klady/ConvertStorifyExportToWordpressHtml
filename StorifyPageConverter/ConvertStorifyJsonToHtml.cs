@@ -8,11 +8,6 @@ namespace StorifyPageConverter
 {
     public static class ConvertStorifyJsonToHtml
     {
-        /* If content.element[x].type = text, surround data.text w/ p tag -- what if text has h2 tag?
-         * if content.element[x].type = image, video, or link -- surround permalink w/ [twitter {permalink}]
-         * 
-         */
-
         public static string GetStringForElement(Element element)
         {
             var result = "";

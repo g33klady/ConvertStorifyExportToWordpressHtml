@@ -292,17 +292,20 @@ namespace StorifyPageConverter
         public string via { get; set; }
         public Meta1 meta { get; set; }
 
-        //public Element(string type, Data data)
-        //{
-        //    this.type = type;
-        //    this.data = data;
-        //}
+        public Element(string type, Data data)
+        {
+            this.type = type;
+            this.data = data;
+        }
 
-        //public Element(string type, string permalink)
-        //{
-        //    this.type = type;
-        //    this.permalink = permalink;
-        //}
+        public Element(string type, string permalink)
+        {
+            this.type = type;
+            this.permalink = permalink;
+        }
+
+        public Element()
+        { }
     }
 
     public class Data
@@ -312,10 +315,13 @@ namespace StorifyPageConverter
         public Image image { get; set; }
         public string text { get; set; }
 
-        //public Data(string text)
-        //{
-        //    this.text = text;
-        //}
+        public Data(string text)
+        {
+            this.text = text;
+        }
+
+        public Data()
+        { }
     }
 
     public class Oembed

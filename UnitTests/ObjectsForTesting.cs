@@ -9,9 +9,9 @@ namespace UnitTests
         public IEnumerator<object[]> GetEnumerator()
         {
             yield return new object[] { new Element("text", new Data("this is a test")), "<p>this is a test</p>" };
-            yield return new object[] { new Element("image", "http://example.com/testimage"), "[twitter http://example.com/testimage]" };
-            yield return new object[] { new Element("video", "http://example.com/testvideo"), "[twitter http://example.com/testvideo]" };
-            yield return new object[] { new Element("link", "http://example.com/testlink"), "[twitter http://example.com/testlink]" };
+            yield return new object[] { new Element("image", "http://example.com/testimage"), "http://example.com/testimage" };
+            yield return new object[] { new Element("video", "http://example.com/testvideo"), "http://example.com/testvideo" };
+            yield return new object[] { new Element("link", "http://example.com/testlink"), "http://example.com/testlink" };
         }
 
         IEnumerator IEnumerable.GetEnumerator() => GetEnumerator();

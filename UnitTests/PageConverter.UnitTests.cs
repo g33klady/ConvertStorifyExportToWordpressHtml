@@ -4,7 +4,7 @@ using Xunit;
 
 namespace UnitTests
 {
-    public class UnitTest1
+    public class PageConverterUnitTests
     {
         [Theory]
         [ClassData(typeof(ObjectsForTesting))]
@@ -13,6 +13,13 @@ namespace UnitTests
             var actual = ConvertStorifyJsonToHtml.GetStringForElement(element);
             Assert.Equal(expected, actual);
 
+        }
+
+        [Fact]
+        public void GetStringForElement_GivenInvalidData_ThrowsException()
+        {
+            var element = new Element("testing", "this is a test");
+            Assert.Throws<NotImplementedException>(() => ConvertStorifyJsonToHtml.GetStringForElement(element));
         }
     }
 }
